@@ -72,3 +72,21 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+[data-toggle="buttons"]>.btn input[type="radio"],
+  [data-toggle="buttons"]>.btn-group>.btn input[type="radio"] {
+      position: absolute;
+      clip: rect(0, 0, 0, 0);
+      pointer-events: none;
+  }
+.modal-body{
+    background:$background-pale;
+    }
+.modal-header{
+    background:$background-dark;
+    color: floralwhite;
+    button {
+        color: floralwhite;
+    }
+}
+    
